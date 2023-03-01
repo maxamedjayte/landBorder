@@ -14,6 +14,7 @@ class UserProfile(models.Model):
     number=models.CharField(max_length=255)
     username=models.CharField(max_length=255)
     status=models.BooleanField(default=True)
+    # axmad
 
 
 class BorderRegistration(models.Model):
