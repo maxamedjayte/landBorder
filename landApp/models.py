@@ -22,10 +22,14 @@ class BorderRegistration(models.Model):
     userState=models.CharField(max_length=255)
     userAddress=models.CharField(max_length=555)
     enteringDate=models.DateTimeField()
-    citizen=models.CharField(max_length=255)
+    nationality=models.CharField(max_length=255)
     fingerPrintCD=models.CharField(max_length=10000,default='')
     registrationDate=models.DateTimeField(auto_now=True)
     remainTime=models.DateTimeField(null=True,blank=True)
     products=models.ManyToManyField(Product)   
 
 
+# title
+# description
+# the user
+# datetime
