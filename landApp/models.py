@@ -11,6 +11,7 @@ class UserProfile(models.Model):
     fullName=models.CharField(max_length=255)
     profileImage=models.ImageField(upload_to='borderImages/')
     userType=models.CharField(max_length=255,default='Normal User')
+    number=models.CharField(max_length=255)
     username=models.CharField(max_length=255)
     status=models.BooleanField(default=True)
 
@@ -31,5 +32,5 @@ class BorderRegistration(models.Model):
 
 # title
 # description
-# the user
+# theuser
 # datetime

@@ -6,3 +6,6 @@ def dashboard(request):
 
 def borderReg(request):
     return render(request,"reg/border_reg.html")
+
+def borderList(request):
+    return render(request,"list/border_list.html")
